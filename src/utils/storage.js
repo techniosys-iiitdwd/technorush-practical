@@ -4,16 +4,9 @@ import path from "node:path";
 export const STORAGE_DIR = path.resolve("storage");
 
 const defaults = {
+  "accounts.json": [],
   "requests.json": [],
-  "participants.json": [],
-  "confessions.json": [],
-  "villains.json": [],
-  "profiles.json": [],
-  "attendance.json": [
-    { "id": "TR-101", "name": "Rahul", "percentage": 92, "status": "eligible" },
-    { "id": "TR-102", "name": "Aman", "percentage": 41, "status": "bunking legend" },
-    { "id": "TR-103", "name": "Priya", "percentage": 76, "status": "eligible" }
-  ]
+  "attendance.json": []
 };
 
 // Serializes writes per file within this Node process.

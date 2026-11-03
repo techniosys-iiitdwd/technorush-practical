@@ -151,5 +151,221 @@
     "statusCode": 200,
     "responseTimeMs": 7,
     "timestamp": "2026-11-03T10:54:35.047Z"
+  },
+  {
+    "requestId": "48a39df6-afd7-464b-94e5-635f0f61be6a",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/",
+    "statusCode": 200,
+    "responseTimeMs": 5,
+    "timestamp": "2026-11-03T12:33:33.237Z"
+  },
+  {
+    "requestId": "94818c70-2077-49c6-aa4d-bb25e4a6b878",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/",
+    "statusCode": 200,
+    "responseTimeMs": 5,
+    "timestamp": "2026-11-03T12:33:35.685Z"
+  },
+  {
+    "requestId": "ea50a850-0a8b-40e6-8e45-0926a46e3df2",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api",
+    "statusCode": 200,
+    "responseTimeMs": 18,
+    "timestamp": "2026-11-03T12:33:38.860Z"
+  },
+  {
+    "requestId": "c5923b24-fb1d-44fa-a339-c169e166b90b",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api",
+    "statusCode": 200,
+    "responseTimeMs": 21,
+    "timestamp": "2026-11-03T12:33:46.154Z"
+  },
+  {
+    "requestId": "80977104-72e4-4634-9178-794d62710a3b",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/attendance",
+    "statusCode": 200,
+    "responseTimeMs": 20,
+    "timestamp": "2026-11-03T12:34:10.191Z"
+  },
+  {
+    "requestId": "d6cb2338-4b4d-457c-b38d-316dc8c9677d",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/attendance",
+    "statusCode": 200,
+    "responseTimeMs": 29,
+    "timestamp": "2026-11-03T12:34:32.942Z"
+  },
+  {
+    "requestId": "ef3f330a-0521-4856-a7a5-842a233a0867",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/",
+    "statusCode": 200,
+    "responseTimeMs": 21,
+    "timestamp": "2026-11-03T12:34:43.769Z"
+  },
+  {
+    "requestId": "5ec46885-82c0-43ea-be2a-b817559489f7",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/register",
+    "statusCode": 400,
+    "responseTimeMs": 20,
+    "timestamp": "2026-11-03T12:34:53.801Z"
+  },
+  {
+    "requestId": "3c2c574a-fc2b-4a4e-ac18-5af716272e17",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/register",
+    "statusCode": 400,
+    "responseTimeMs": 18,
+    "timestamp": "2026-11-03T12:35:29.186Z"
+  },
+  {
+    "requestId": "a22e26a6-f11a-454f-bb64-34638992d43d",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/register",
+    "statusCode": 400,
+    "responseTimeMs": 21,
+    "timestamp": "2026-11-03T12:35:37.208Z"
+  },
+  {
+    "requestId": "82a3cb6c-2a2a-42e4-b0f7-dbe649c322f0",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/register",
+    "statusCode": 400,
+    "responseTimeMs": 22,
+    "timestamp": "2026-11-03T12:35:50.157Z"
+  },
+  {
+    "requestId": "89593548-ab06-4632-b17e-a36d213d86e3",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/attendance/register",
+    "statusCode": 201,
+    "responseTimeMs": 30,
+    "timestamp": "2026-11-03T12:36:42.201Z"
+  },
+  {
+    "requestId": "ad1d784c-899b-4e21-8391-ced5514be67a",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/attendance/",
+    "statusCode": 200,
+    "responseTimeMs": 22,
+    "timestamp": "2026-11-03T12:36:52.845Z"
+  },
+  {
+    "requestId": "4b45882c-92d4-4f18-80e5-e7f42558c563",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/",
+    "statusCode": 200,
+    "responseTimeMs": 20,
+    "timestamp": "2026-11-03T12:37:06.857Z"
+  },
+  {
+    "requestId": "e6185763-1072-4217-80ca-f5a3cb5acda5",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/register",
+    "statusCode": 404,
+    "responseTimeMs": 22,
+    "timestamp": "2026-11-03T12:37:20.253Z"
+  },
+  {
+    "requestId": "03fadce1-d7f4-4ec0-acb0-b385d6fab358",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/register",
+    "statusCode": 404,
+    "responseTimeMs": 19,
+    "timestamp": "2026-11-03T12:37:27.052Z"
+  },
+  {
+    "requestId": "8b04fd43-975e-4c9b-a96f-9bf064a06392",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/",
+    "statusCode": 200,
+    "responseTimeMs": 22,
+    "timestamp": "2026-11-03T12:37:33.544Z"
+  },
+  {
+    "requestId": "c694fdbd-b43c-4eff-893d-5b0dca873ada",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/account",
+    "statusCode": 200,
+    "responseTimeMs": 21,
+    "timestamp": "2026-11-03T12:42:56.156Z"
+  },
+  {
+    "requestId": "dec15b75-d8fa-4f69-97cb-15de05483ce5",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/account/register",
+    "statusCode": 404,
+    "responseTimeMs": 21,
+    "timestamp": "2026-11-03T12:43:03.780Z"
+  },
+  {
+    "requestId": "a4370805-7cae-42ad-996a-87d2bb6b653e",
+    "participant": "saksham",
+    "method": "GET",
+    "endpoint": "/api/account/",
+    "statusCode": 200,
+    "responseTimeMs": 33,
+    "timestamp": "2026-11-03T12:53:02.429Z"
+  },
+  {
+    "requestId": "91a17e8d-f0c7-49b8-856a-58bb7678d89c",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/account/register",
+    "statusCode": 400,
+    "responseTimeMs": 35,
+    "timestamp": "2026-11-03T12:54:39.081Z"
+  },
+  {
+    "requestId": "a235099d-d135-45e5-984c-c66fc79decf8",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/account/register",
+    "statusCode": 201,
+    "responseTimeMs": 90,
+    "timestamp": "2026-11-03T12:54:48.212Z"
+  },
+  {
+    "requestId": "bb29b246-8e7d-4cbe-9929-155bb268476a",
+    "participant": "saksham",
+    "method": "POST",
+    "endpoint": "/api/account/login",
+    "statusCode": 200,
+    "responseTimeMs": 90,
+    "timestamp": "2026-11-03T12:55:16.909Z"
+  },
+  {
+    "requestId": "92690c77-e034-4db7-b092-74d64d683aed",
+    "participant": "saksham",
+    "method": "PATCH",
+    "endpoint": "/api/account/updateInfo",
+    "statusCode": 401,
+    "responseTimeMs": 32,
+    "timestamp": "2026-11-03T12:56:26.738Z"
   }
 ]

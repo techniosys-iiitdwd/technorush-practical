@@ -12,7 +12,14 @@ const app = express();
 app.disable("x-powered-by");
 app.set("trust proxy", 1);
 
-app.use(cors());
+if (process.env.FRONTEND_ORIGIN) {
+  app.use(cors({
+    origin: process.env.FRONTEND_ORIGIN,
+    credentials: true
+  }));
+} else {
+  app.use(cors());
+}
 app.use(requestLogger);
 
 app.get("/", (req, res) => {
@@ -55,11 +62,11 @@ app.listen(PORT,'0.0.0.0',() => {
 });
 
 function getLocalIP() {
-    const interfaces = os.networkInterfaces();
-    for (const interfaceName in interfaces) {
-        for (const iface of interfaces[interfaceName]) {
-            // Skip over internal (i.e. 127.0.0.1) and non-IPv4 addresses
-            if (iface.family === 'IPv4' && !iface.internal) {
+    const interfaces = os.networkInterfaces() ?? {};
+    for (const interfaceName of Object.keys(interfaces)) {
+        for (const iface of interfaces[interfaceName] ?? []) {
+            const isIPv4 = iface.family === 'IPv4' || iface.family === 4;
+            if (isIPv4 && !iface.internal && iface.address) {
                 return iface.address;
             }
         }

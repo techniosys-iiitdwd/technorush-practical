@@ -1,20 +1,8 @@
 [
   {
-    "id": "TR-101",
-    "name": "Rahul",
-    "percentage": 92,
-    "status": "eligible"
-  },
-  {
-    "id": "TR-102",
-    "name": "Aman",
-    "percentage": 41,
-    "status": "bunking legend"
-  },
-  {
-    "id": "TR-103",
-    "name": "Priya",
-    "percentage": 76,
-    "status": "eligible"
+    "id": "ATT-160f343d",
+    "name": "Saksham",
+    "rollNo": "24BDS072",
+    "timestamp": "2026-11-03T12:36:42.188Z"
   }
 ]
