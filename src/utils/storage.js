@@ -19,8 +19,15 @@ export async function initializeStorage() {
   for (const [filename, initialValue] of Object.entries(defaults)) {
     const filePath = path.join(STORAGE_DIR, filename);
     try {
-      await fs.access(filePath);
-    } catch {
+      const content = await fs.readFile(filePath, "utf8");
+      if (content.trim() === "") {
+        console.warn(`Storage file ${filePath} was empty; initializing it with defaults.`);
+        await fs.writeFile(filePath, JSON.stringify(initialValue, null, 2) + "\n", "utf8");
+      } else {
+        JSON.parse(content);
+      }
+    } catch (error) {
+      if (error.code !== "ENOENT") throw error;
       await fs.writeFile(filePath, JSON.stringify(initialValue, null, 2) + "\n", "utf8");
     }
   }
@@ -28,7 +35,8 @@ export async function initializeStorage() {
   const logPath = path.join(STORAGE_DIR, "requests.log");
   try {
     await fs.access(logPath);
-  } catch {
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
     await fs.writeFile(logPath, "", "utf8");
   }
 }
